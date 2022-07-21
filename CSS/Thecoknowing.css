@@ -1,0 +1,225 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background-color: rgba(165, 160, 160, 0.589);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/*Encabezado*/
+header {
+    color: black;
+    background-color: #1F3C88;
+    height: 5rem;
+}
+header h1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    padding-left: 2px;
+    padding-right: 5px;
+    background-color: white;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    display: inline;
+    position: relative;
+    top: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+span #des {
+    font-size: 11px;
+    background-color: white;
+    color: #727272;
+    position: relative;
+    left: 1rem;
+    width: 185px;
+    margin-top: 7px;
+    padding-left: 5px;
+    padding-right: 0px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    box-shadow: 4px 4px 4px black;
+}
+
+a.comentarios {
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    border-style:hidden;
+    padding: 5px;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    box-shadow: 4px 4px 8px black;
+}
+
+div.comentarios {
+    float: right;
+    margin-top: 25px;
+    margin-right: 2rem;
+}
+
+h2 {
+    text-shadow: 3px 3px 7px black;
+}
+
+h2.h2, p.pa {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+p.pa{
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+
+/*Cuerpo de la pagina*/
+#Cuerpo {
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+hr.hrp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p.porce{
+    font-size: 14px;
+}
+
+/*tabla*/
+div.centro{
+    padding: 0;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px black;
+    padding: 5px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+th {
+    color: white;
+    background-color: #1F3C88;
+}
+
+td.center {
+    text-align: center;
+}
+
+td.right {
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.234);
+}
+
+tr:hover {
+    background-color: #1f3d888a;
+}
+
+
+
+/*Footer pie de pagina*/
+footer{
+    background-color: #203d86;
+    padding: 3px;
+}
+
+a:link {
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #ff0000;
+}
+
+footer section {
+    float: right;
+    margin-top: 8px;
+}
+
+
+#Boton {
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    position: relative;
+    width: 12rem;
+    border-style:hidden;
+    padding: 5px;
+    margin-right: 1rem;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    box-shadow: 4px 4px 8px black;
+}
+
+p.copy {
+    font-size: 12px;
+}
+
+/*thecoknowing2*/
+
+p.descripcion{
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 1.5rem;
+    margin-bottom: 1px;
+    margin-left: 1rem;
+}
+
+ol.lista {
+    margin-left: 1rem;
+    margin-top: 13px;
+}
+
+img.Infancia {
+    float: right;
+    margin-right: 2rem;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow:  5px 5px 9px #020b21;
+}
+
+
